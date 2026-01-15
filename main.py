@@ -22,7 +22,7 @@ df = pd.concat(lista_df, ignore_index=True)
 
 print(df["ANO_REFERENCIA"].value_counts())
 
-# Filtrar IFSC - Documentação informa que na coluna "Instituição" informa a sigla do Câmpus mas no arquivo de 2023 está por extenso 
+# Filtrar IFSC - Documentação informa que na coluna "Instituição" temos a sigla do Câmpus mas no arquivo de 2023 está por extenso 
 df = df[
     df["Instituição"].str.contains(
         "IFSC|Instituto Federal de Santa Catarina",
@@ -31,7 +31,7 @@ df = df[
     )
 ]
 
-#Ensino Médio Técnico Integrado ou técnicos concomitante e subsequente
+#Ensino Médio Técnico Integrado, técnicos concomitante e técnico subsequente
 df = df[
     df["Tipo de Oferta"].str.contains(
         "Integrado|Concomitante|Subsequente",
