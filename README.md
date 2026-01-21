@@ -35,3 +35,66 @@ por sexo;
 Geração de gráficos para análise comparativa.
 
 
+### Resultados esperados
+
+Maior concentração de matrículas femininas em cursos STEM entre faixas de menor renda familiar;
+
+Taxas de evasão feminina relativamente estáveis entre as diferentes faixas de renda;
+
+Evidência empírica que complementa o paradoxo da igualdade de gênero em STEM, demonstrando que contextos socioeconômicos influenciam a escolha educacional sem necessariamente ampliar a evasão.
+
+### Autor
+
+André Festrati
+Trabalho de Conclusão de Curso — Docência em EPTIFSC
+Ano: 2026
+## Tecnologias utilizadas
+
+**Linguagem:** Python 3.13
+
+**Bibliotecas:** pandas 2.2.0, matplotlib
+
+
+## Como reproduzir a análise
+
+#### Clonar repositório:
+
+``` bash
+git clone https://github.com/festrati/tcc.git
+```
+
+#### Instalar dependências:
+
+``` bash
+pip install pandas matplotlib
+```
+
+#### Inserir os arquivos de microdados da PNP na pasta dados/
+
+ ``` bash
+https://www.gov.br/mec/pt-br/acesso-a-informacao/dados-abertos/plataforma-nilo-pecanha
+ ```
+
+#### Execute o script main.py
+
+``` bash
+   python src/main.py
+```STOET, Gijsbert; GEARY, David C. The gender-equality paradox in science, technology, engineering, and mathematics education. Psychological Science, v. 29, n. 4, p. 581–593, 2018.
+
+VOYER, Daniel; VOYER, Susan D.; SAINT-AUBIN, Jean. Sex differences in visual-spatial working memory: A meta-analysis. Psychonomic bulletin & review, v. 24, n. 2, p. 307-334, 2017. 
+
+UNESCO. Decifrar o código: educação de meninas e mulheres em ciências, tecnologia, engenharia e matemática (STEM). 1. ed. Brasilia: UNESCO, 2018. ISBN 978-85-7652-231-7. 
+BRASIL. Constituição Federal. Constituição da República Federativa do Brasil de 1988. Brasília: Presidência da República, 2019. Disponível em: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm Acesso em: 22 de dez. de 2025.
+
+TEAM PYTHON DEVELOPMENT. Python: linguagem de programação. Versão 3.12. 2024. Programa de computador. Disponível em: www.python.org. Acesso em: 12 jan. 2026.
+
+PANDAS DEVELOPMENT TEAM. pandas documentation (versão 2.2.0). Disponível em: https://pandas.pydata.org/docs/. Acesso em: 05 jan. 2026.
+
+DA SILVA MONTEIRO, Daniela de Cássia; PITON SERRA SANCHES, Jane. EVASÃO NOS CURSOS TÉCNICOS DA REDE FEDERAL DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA: UMA ANÁLISE À LUZ DOS DADOS DA PLATAFORMA NILO PEÇANHA. Educação Profissional e Tecnológica em Revista, [S. l.], v. 8, n. 2, p. 31–44, 2025. DOI: 10.36524/profept.v8i2.1523. Disponível em: https://ojs.ifes.edu.br/index.php/ept/article/view/1523.  Acesso em: 21 jan. 2026.
+## Autores
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+André Festrati
+Trabalho de Conclusão de Curso — Docência em EPTIFSC
+Ano: 2026
