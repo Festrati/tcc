@@ -2,10 +2,10 @@
 ## Análise da evasão feminina em cursos STEM no IFSC (2019–2023)
 
 ### Descrição do projeto
-
 Este repositório contém os scripts e procedimentos utilizados na análise da evasão escolar de estudantes do sexo feminino em cursos tecnológicos do Ensino Médio Técnico do Instituto Federal de Santa Catarina (IFSC), no período de 2019 a 2023, com base nos microdados de eficiência acadêmica disponibilizados pela Plataforma Nilo Peçanha (PNP).
 O estudo está fundamentado no paradoxo da igualdade de gênero em STEM, conforme discutido por Stoet e Geary (2018), e adota a renda familiar como variável socioeconômica central para a análise das escolhas educacionais e da permanência escolar.
 O código disponibilizado neste repositório visa garantir a transparência, reprodutibilidade e validação dos resultados apresentados no Trabalho de Conclusão de Curso (TCC).
+
 ### Objetivo
 Analisar a evasão de mulheres e meninas em cursos tecnológicos do Ensino Médio Técnico do IFSC, considerando a renda familiar como variável explicativa, no período de 2019 a 2023, à luz do paradoxo da igualdade de gênero em STEM.
 
@@ -34,13 +34,9 @@ por sexo;
 Geração de gráficos para análise comparativa.
 
 ### Resultados esperados
-
 Maior concentração de matrículas femininas em cursos STEM entre faixas de menor renda familiar;
-
 Taxas de evasão feminina relativamente estáveis entre as diferentes faixas de renda;
-
 Evidência empírica que complementa o paradoxo da igualdade de gênero em STEM, demonstrando que contextos socioeconômicos influenciam a escolha educacional sem necessariamente ampliar a evasão.
-
 
 ## Tecnologias utilizadas
 
@@ -88,6 +84,7 @@ TEAM PYTHON DEVELOPMENT. Python: linguagem de programação. Versão 3.12. 2024.
 PANDAS DEVELOPMENT TEAM. pandas documentation (versão 2.2.0). Disponível em: https://pandas.pydata.org/docs/. Acesso em: 05 jan. 2026.
 
 DA SILVA MONTEIRO, Daniela de Cássia; PITON SERRA SANCHES, Jane. EVASÃO NOS CURSOS TÉCNICOS DA REDE FEDERAL DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA: UMA ANÁLISE À LUZ DOS DADOS DA PLATAFORMA NILO PEÇANHA. Educação Profissional e Tecnológica em Revista, [S. l.], v. 8, n. 2, p. 31–44, 2025. DOI: 10.36524/profept.v8i2.1523. Disponível em: https://ojs.ifes.edu.br/index.php/ept/article/view/1523.  Acesso em: 21 jan. 2026.
+
 ## Autor
 
 - [@Festrati](https://www.github.com/festrati)
